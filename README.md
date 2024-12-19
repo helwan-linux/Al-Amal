@@ -92,3 +92,23 @@ To run Helwan Linux smoothly, you should meet these requirements:
 * 64-bit CPU (single core or more)
 * 16 GB or more storage
 * At least an iGPU (otherwise how you will get display output?)
+
+useful commands :
+==============
+
+--------------------------------------------------------------
+| short cmd | arch cmd		    |
+-------------------------------------------------------------
+sync	   | sudo pacman -Syyy 	    |
+	   | sudo pacman -S      	    |
+update        |sudo pacman -Syyu 	    |
+search 	   | sudo pacman -Ss   	    |
+search-local | sudo pacman -Qs   	    |
+pkg-info 	   | sudo pacman -Qi    	    |
+local-install   | sudo pacman -U       	    |
+clr-cache      | sudo pacman -Scc    	    |
+unlock	   | sudo rm /var/lib/pacman/db.lck |
+remove	   | sudo pacman -R		    |
+autoremove | sudo pacman -Rns"	    |
+helwan	   |uname -a"		    |
+------------------------------------------------------------
