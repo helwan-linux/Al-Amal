@@ -77,3 +77,18 @@ you can find the distro on :
 
        = sooner forum's distro and irc channel will be added
 
+
+# Requirements
+To run Helwan Linux smoothly, you should meet these requirements:
+
+### Recommended requirements
+* 4 GB or more RAM
+* Any modern 64-bit CPU (dual core or more)
+* 32 GB or more storage
+* Any modern GPU
+
+### Minimum requirements
+* 3 GB or more RAM
+* 64-bit CPU (single core or more)
+* 16 GB or more storage
+* At least an iGPU (otherwise how you will get display output?)
