@@ -96,18 +96,28 @@ To run Helwan Linux smoothly, you should meet these requirements:
 useful commands :
 ==============
 
---------------------------------------------------------------
+-------------------------------------
 | short cmd | arch cmd		    |
--------------------------------------------------------------
-sync	   | sudo pacman -Syyy 	    |
-	   | sudo pacman -S      	    |
-update        |sudo pacman -Syyu 	    |
-search 	   | sudo pacman -Ss   	    |
+-------------------------------------
+
+* sync	      sudo pacman -Syyy
+
+* install     sudo pacman -S
+    
+* update      sudo pacman -Syyu
+
+* search      sudo pacman -Ss
+
 search-local | sudo pacman -Qs   	    |
+
 pkg-info 	   | sudo pacman -Qi    	    |
+
 local-install   | sudo pacman -U       	    |
+
 clr-cache      | sudo pacman -Scc    	    |
+
 unlock	   | sudo rm /var/lib/pacman/db.lck |
+
 remove	   | sudo pacman -R		    |
 autoremove | sudo pacman -Rns"	    |
 helwan	   |uname -a"		    |
