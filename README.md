@@ -1,3 +1,6 @@
+<h1 align="center"><img src="https://hewol.github.io/assets/img/aeros.png"></img><br>aerOS</h1>
+<p align="center">A work-in-progress Arch-based Linux distro built with <code>archiso</code>.</p>
+
 Helwan O.S 
 ===========
 Helwan O.S is Arch Linux based distro built with archiso v 82 and Calamares 3.3.12
